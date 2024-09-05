@@ -1,10 +1,10 @@
 #!/bin/bash
 
-COURSE="Ai from current script"
+COURSE="AI from curreent script"
 
 echo "Before calling other script, course: $COURSE"
-echo "Process ID of current shell script: $$"
+echo "Process ID of the current shell script: $$"
 
-#./<script-name>.sh
+#./15-otherscript.sh
 
 echo "After calling other script, course: $COURSE"
